@@ -1,0 +1,22 @@
+###GET
+Post http://localhost:4040
+Content-Type: application/json
+
+{
+"user":"cyn",
+"password":"Matthias"
+}
+
+###
+POST http://localhost:4040/users
+Content-Type: application/json
+
+{
+"gender":"female",
+"firstname":"Cynthia",
+"lastname":"Jepleting",
+"email":"cynthia@online.de",
+"user":"cyn",
+"password":"Matthias",
+"dateOfBirth":"1998-11-22"
+}
